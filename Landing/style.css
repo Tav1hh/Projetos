@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(imgs/thumb.jpg) fixed top no-repeat;
+    background-size: cover;
+}
+.cabecalho{
+    text-align: center;
+    font-family: "sarala", sans-serif;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.cabecalho a{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px 10px;
+    background-color: black;
+}
+.cabecalho a:hover{
+    background-color: gray;
+    color:black;
+}
+.main-principal{
+    display: flex;
+    height: 87vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.principal-1{
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "righteous",sans-serif;
+    background-color: rgba(128, 128, 128, 0.625);
+}
+.principal-1 h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Sarala", sans-serif;
+}
+.principal-1 button{
+    font-family: "sarala",sans-serif;
+    padding: 5px;
+    border-radius: 8px;
+}
+.principal-1 button:hover{
+    background-color: gray;
+}
+.principal-1 audio{
+    width: 150px;
+}
+.controles{
+    display: flex;
+    padding: 10px 0px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.principal-2 img{
+    width: 200px;
+}
+.rodape{
+    text-align: center;
+    font-family: "righteous";
+}
+.rodape img{
+    width: 150px;
+}
+
+@media screen and (max-width:550px) {
+    .main-principal{
+        flex-direction: column-reverse;
+    }
+    .principal-2 img{
+        width: 250px;
+    }
+}

@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background: rgb(0, 0, 0) url(Wallpaper\ -\ Dark\ Skull\ Designer\ Conect.jpg) center center no-repeat fixed;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+footer{
+    width:cover;
+    bottom:0px;
+    padding: 5px;
+    padding-left:20px;
+    padding-right: 20px;
+    background-color: rgb(7, 30, 53);
+    
+    }
+
+    #open{
+        color:white ;
+    }
+    p{
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: gray;
+    text-align: center;
+
+    }
+p a{
+    font-size: 13px;
+    padding-right: 7px;
+    padding-left: 7px;
+    text-decoration: none;
+    color:black;
+}
+hr{
+    margin: 0px;
+    padding: 0px;
+}
+ol{
+    margin: 0px;
+    font-size:9pt;
+    background-color: rgba(128, 128, 128, 0.309);
+    
+}
+ol li{
+    color: black;
+    font-size: 14px;
+    padding: 8px;
+}
+
