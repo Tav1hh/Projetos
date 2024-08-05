@@ -15,24 +15,28 @@
         *{
             padding: 0px;
             margin: 0px;
-        }
-        body{
+            box-sizing: border-box;
             font-family: var(--font-destaque);
+            text-decoration: none;
+        }
+
+        body{
             background: black url(imgs/bk-g1.jpg) center bottom no-repeat fixed;
             background-size: cover;
-            padding: 0px 10px;
+            padding:10px;
+
         }
+        
         div{
             max-width: 400px;
             width: 100%;
             padding: 10px;
+            background-color: white;
             border-radius: 10px;
             margin: auto;
-            background-color: white;
-            /*background-color: rgb(46, 68, 77); */
             border: 2px solid black;
             text-align: center;
-            margin-top: 20px;
+            margin-bottom: 10px;
         }
 
         h1{
@@ -43,16 +47,28 @@
             font-size: 3em;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.427);
         }
+
+        .project section{
+            width: max-content;
+            display: flex;
+            gap: 5px;
+            margin: auto;
+            height: 150px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+        }
+
         .project a{
             font-size: 1.2em;
-            display: block;
-            text-decoration: none;
+            width: 140px;
             color: black;
             font-weight: bold;
             padding: 10px;
             border-radius: 5px;
-            transition-duration: 0.5s;
+            transition-duration: 0.5s ;
         }
+
         .project a::before{
             content: '🔗\0020';
         }
@@ -61,13 +77,17 @@
             color: white;
             background-color: black;
         }
-        .project section{
-            display: inline-block;
-        }
-        img{
+
+        .project img{
             border-radius: 10px;
             border: 1px solid black;
-            display: inline-block;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+            padding: 10px;
         }
     </style>
 </head>
@@ -82,14 +102,17 @@
             <a href="Universo/index.html">Universo</a>
             <a href="Sax-Club/index.html">Sax Club</a>
         </section>
-        <img width="260px" src="https://media.tenor.com/pT_eK7L76OEAAAAC/coding-computer-coding.gif" />
+        <img max-width="260px" width="100%" src="https://media.tenor.com/pT_eK7L76OEAAAAC/coding-computer-coding.gif" />
 
     </div>
     <div class="detalhes">
         <h1>Detalhes</h1>
         <a href="https://github.com/Tav1hh">
-        <img width="400px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tav1hh&theme=dracula&hide_langs_below=1" />
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tav1hh&theme=dracula&hide_langs_below=1" />
         </a>
     </div>
+    <footer>
+        <p>&copy; 2024 Site criado por Santiago</p>
+    </footer>
 </body>
 </html>
