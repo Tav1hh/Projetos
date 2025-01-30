@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 10px;
+    background-color: rgb(157, 172, 176);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.registrar{
+    border: 2px solid black;
+    max-width: 600px;
+    width: 100%;
+    background-color: rgb(127, 140, 144);
+    border-radius:10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.registrar .dados-nome{
+    display: flex;
+    justify-content: space-between;
+}
+.registrar .dados-nome input{
+    width: 49%;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 7px;
+    border:none;
+    border-bottom: 1px solid black;
+}
+.registrar .dados-email input{
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 7px;
+    border:none;
+    border-bottom: 1px solid black;
+}
+
+.login{
+    border: 2px solid black;
+    max-width: 600px;
+    width: 100%;
+    background-color: rgb(127, 140, 144);
+    border-radius:10px 10px 10px 10px;
+    padding: 10px;
+}
+.login h1, .registrar h1{
+    text-align: center;
+    padding: 15px;
+}
+.campo{
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 7px;
+    border:none;
+    border-bottom: 1px solid black;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}
+input[type=submit],button{
+    width: 49%;
+    height: 40px;
+    border-radius: 5px;
+}
