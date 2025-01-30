@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam Bot</title>
+    <style>
+        /* Estilos CSS podem ser adicionados aqui */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #663399; /* Roxo Balerini */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-variant: small-caps;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .bot-description {
+            padding: 10px;
+            color: black;
+            border: 1px solid black;
+            background-color: #b99deb;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .bot-image {
+            margin-bottom: 20px;
+            width: 200px;
+            margin: auto;
+        }
+        .bot-image> img{
+            width: 200px;
+            border-radius: 50%;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .feature {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+        }
+        .feature h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+        .feature img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 8px 12px;
+            margin-top: 20px;
+            background-color: #663399; /* Roxo Balerini */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #5a2d85; /* Roxo mais escuro */
+        }
+        @media (max-width:700px){
+            .features{
+                display: block;
+            }
+            .features img{
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Comandos</h1>
+    </div>
+    <div class="container">
+        <div class="bot-image">
+            <img src="imagens/sam.jpg" alt="Imagem do Sam">
+        </div>
+        <div class="features">
+            <div class="feature">
+                <h3>Economia do Sam</h3>
+                <p>Tenha uma economia dentro do seu servidor</p>
+                <img src="imagens/economia.jpg" alt="imagem mostrando a economia do Sam">
+            </div>
+            <div class="feature">
+                <h3>Gestão</h3>
+                <p>Gerencie Facilmente o seu servidor com o Sam</p>
+                <img src="imagens/moderacao.jpg" alt="Imagem mostrando a Gestão do Sam">
+            </div>
+            <div class="feature">
+                <h3>Diversão</h3>
+                <p>Converse com ele sobre suas coisas favoritas.</p>
+                <img src="imagens/diversao.jpg" alt="Imagem mostrando o Sam divertindo a galera">
+            </div>
+        </div>
+        <hr>
+        <div class="bot-description">
+            <p>O Sam Bot é o seu assistente completo para o Discord! Com ele, você tem acesso a uma variedade de comandos úteis, desde moderação para manter o servidor seguro, até funções de diversão para animar as conversas. Ele pode ajudar a organizar eventos, fornecer informações rápidas e até mesmo jogar minigames com os membros. Simples de usar e cheio de recursos, o Sam Bot torna seu servidor mais dinâmico e interativo</p>
+        </div>
+        <a href="https://discord.com/oauth2/authorize?client_id=1212115074735415316&permissions=590588031167607&scope=bot+applications.commands" class="cta-button">Adicione agora</a>
+    </div>
+</body>
+</html>
