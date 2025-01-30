@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            position: relative;
+        }
+        tbody tr:nth-child(odd){
+            background-color: lightcyan;
+        }
+        thead{
+            position: sticky;
+            top: -1px;
+        }
+        td, th{
+            padding: 5px 10px;
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: center;
+        }
+        th{
+            font-variant: small-caps;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            font-size: 1.4em;
+        }
+        td{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</td>
+                <th scope="col">Nomes</td>
+                <th scope="colgroup" colspan="3">Filmes</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocavéis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>''
+            </tr>
+        </tbody>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis eos autem, cum harum, atque optio quibusdam nam quos assumenda ut similique molestiae? Earum a nobis cumque officia provident velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est ex quaerat, et distinctio culpa temporibus fuga minus! Numquam doloribus, tempora soluta excepturi culpa eius dolorem veritatis maiores! Ipsa, necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ab, voluptatum placeat cum amet quasi voluptatibus quas officia quidem, eius necessitatibus in nesciunt. Tenetur cumque deserunt impedit ducimus asperiores saepe? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi debitis vel illo. Vero ad at, placeat eum nam aperiam, doloremque quis, deserunt incidunt suscipit expedita veniam. Maiores quis dicta sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga consequuntur praesentium molestias nihil, maiores beatae omnis dolore quibusdam atque accusamus officia dolor, cupiditate laborum, culpa id harum nam vitae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis eos autem, cum harum, atque optio quibusdam nam quos assumenda ut similique molestiae? Earum a nobis cumque officia provident velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est ex quaerat, et distinctio culpa temporibus fuga minus! Numquam doloribus, tempora soluta excepturi culpa eius dolorem veritatis maiores! Ipsa, necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ab, voluptatum placeat cum amet quasi voluptatibus quas officia quidem, eius necessitatibus in nesciunt. Tenetur cumque deserunt impedit ducimus asperiores saepe? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi debitis vel illo. Vero ad at, placeat eum nam aperiam, doloremque quis, deserunt incidunt suscipit expedita veniam. Maiores quis dicta sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga consequuntur praesentium molestias nihil, maiores beatae omnis dolore quibusdam atque accusamus officia dolor, cupiditate laborum, culpa id harum nam vitae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis eos autem, cum harum, atque optio quibusdam nam quos assumenda ut similique molestiae? Earum a nobis cumque officia provident velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est ex quaerat, et distinctio culpa temporibus fuga minus! Numquam doloribus, tempora soluta excepturi culpa eius dolorem veritatis maiores! Ipsa, necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ab, voluptatum placeat cum amet quasi voluptatibus quas officia quidem, eius necessitatibus in nesciunt. Tenetur cumque deserunt impedit ducimus asperiores saepe? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi debitis vel illo. Vero ad at, placeat eum nam aperiam, doloremque quis, deserunt incidunt suscipit expedita veniam. Maiores quis dicta sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga consequuntur praesentium molestias nihil, maiores beatae omnis dolore quibusdam atque accusamus officia dolor, cupiditate laborum, culpa id harum nam vitae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis eos autem, cum harum, atque optio quibusdam nam quos assumenda ut similique molestiae? Earum a nobis cumque officia provident velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est ex quaerat, et distinctio culpa temporibus fuga minus! Numquam doloribus, tempora soluta excepturi culpa eius dolorem veritatis maiores! Ipsa, necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ab, voluptatum placeat cum amet quasi voluptatibus quas officia quidem, eius necessitatibus in nesciunt. Tenetur cumque deserunt impedit ducimus asperiores saepe? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi debitis vel illo. Vero ad at, placeat eum nam aperiam, doloremque quis, deserunt incidunt suscipit expedita veniam. Maiores quis dicta sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga consequuntur praesentium molestias nihil, maiores beatae omnis dolore quibusdam atque accusamus officia dolor, cupiditate laborum, culpa id harum nam vitae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis eos autem, cum harum, atque optio quibusdam nam quos assumenda ut similique molestiae? Earum a nobis cumque officia provident velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est ex quaerat, et distinctio culpa temporibus fuga minus! Numquam doloribus, tempora soluta excepturi culpa eius dolorem veritatis maiores! Ipsa, necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ab, voluptatum placeat cum amet quasi voluptatibus quas officia quidem, eius necessitatibus in nesciunt. Tenetur cumque deserunt impedit ducimus asperiores saepe? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi debitis vel illo. Vero ad at, placeat eum nam aperiam, doloremque quis, deserunt incidunt suscipit expedita veniam. Maiores quis dicta sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga consequuntur praesentium molestias nihil, maiores beatae omnis dolore quibusdam atque accusamus officia dolor, cupiditate laborum, culpa id harum nam vitae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis eos autem, cum harum, atque optio quibusdam nam quos assumenda ut similique molestiae? Earum a nobis cumque officia provident velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est ex quaerat, et distinctio culpa temporibus fuga minus! Numquam doloribus, tempora soluta excepturi culpa eius dolorem veritatis maiores! Ipsa, necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ab, voluptatum placeat cum amet quasi voluptatibus quas officia quidem, eius necessitatibus in nesciunt. Tenetur cumque deserunt impedit ducimus asperiores saepe? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi debitis vel illo. Vero ad at, placeat eum nam aperiam, doloremque quis, deserunt incidunt suscipit expedita veniam. Maiores quis dicta sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga consequuntur praesentium molestias nihil, maiores beatae omnis dolore quibusdam atque accusamus officia dolor, cupiditate laborum, culpa id harum nam vitae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis eos autem, cum harum, atque optio quibusdam nam quos assumenda ut similique molestiae? Earum a nobis cumque officia provident velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est ex quaerat, et distinctio culpa temporibus fuga minus! Numquam doloribus, tempora soluta excepturi culpa eius dolorem veritatis maiores! Ipsa, necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ab, voluptatum placeat cum amet quasi voluptatibus quas officia quidem, eius necessitatibus in nesciunt. Tenetur cumque deserunt impedit ducimus asperiores saepe? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi debitis vel illo. Vero ad at, placeat eum nam aperiam, doloremque quis, deserunt incidunt suscipit expedita veniam. Maiores quis dicta sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga consequuntur praesentium molestias nihil, maiores beatae omnis dolore quibusdam atque accusamus officia dolor, cupiditate laborum, culpa id harum nam vitae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis eos autem, cum harum, atque optio quibusdam nam quos assumenda ut similique molestiae? Earum a nobis cumque officia provident velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est ex quaerat, et distinctio culpa temporibus fuga minus! Numquam doloribus, tempora soluta excepturi culpa eius dolorem veritatis maiores! Ipsa, necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ab, voluptatum placeat cum amet quasi voluptatibus quas officia quidem, eius necessitatibus in nesciunt. Tenetur cumque deserunt impedit ducimus asperiores saepe? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi debitis vel illo. Vero ad at, placeat eum nam aperiam, doloremque quis, deserunt incidunt suscipit expedita veniam. Maiores quis dicta sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga consequuntur praesentium molestias nihil, maiores beatae omnis dolore quibusdam atque accusamus officia dolor, cupiditate laborum, culpa id harum nam vitae.</p>
+
+
+</body>
+</html>

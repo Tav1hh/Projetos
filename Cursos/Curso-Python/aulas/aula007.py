@@ -1,0 +1,10 @@
+# Operadores aritmeticos
+n1 = int(input("Um valor: "))
+n2 = int(input("Outro valor: "))
+print('A Soma vale', n1 + n2)
+print('A Subtração vale', n1 - n2)
+print('A Divisão vale', n1 / n2)
+print('A Divisão inteira vale', n1 // n2)
+print('O resto da Divisão vale', n1 % n2)
+print('A Múltiplicação vale', n1 * n2)
+print('A Potencia vale', n1 ** n2)

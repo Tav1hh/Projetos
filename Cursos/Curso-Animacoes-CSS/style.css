@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    padding: 20px;
+    border: 3px solid orange;
+}
+
+.box{
+    animation: fly 3s;
+    width: 200px;
+    line-height: 200px;
+    text-align: center;
+    height: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: 1px solid black;
+/*  
+    animation-name: fly;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running; 
+*/
+
+    animation: fly 2s linear 0s infinite reverse forwards running;
+}
+
+.box:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translate(200%, -50px);
+    }
+
+    100% {
+        transform: translateX(calc(100vw - 200px));
+
+    }
+}

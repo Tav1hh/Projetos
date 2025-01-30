@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+<body>
+    {% extends 'base.html' %}
+    {% block content %}
+    <ul>
+        {% for topic in topics %}
+        <a href="topic/{{topic.id}}">
+            <li>{{topic}}</li>
+        </a>
+        {%empty%}
+        <li>Ainda não tem nenhum tópico aqui</li>
+        {% endfor%}
+    </ul>
+    
+    {% endblock content %}
+</body>
+</html>

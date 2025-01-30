@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Otávio Santiago</h1>
+        <nav>
+            <a href="https://github.com/Tav1hh" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/otavio-santiago/" target="_blank">Linkedin</a>
+            <a href="https://www.instagram.com/tavihh/" target="_blank">Instagram</a>
+        </nav>
+    </header>
+    <main>
+        <img src="https://avatars.githubusercontent.com/u/96801485?v=4" alt="">
+        <p>Sou um Desenvolvedor de Software, adoro aprender novas tecnologais e Linguagens, até o momento trabalhei apenas em projetos pessoais, estou ansioso pelo meu primeiro trabalho na area, para finalmente conseguir entrar no mercado de trabalho.</p>
+
+        <section>
+
+                <div class="carrosel">
+                    <div>
+                        <h2>Bot Discord</h2>
+                        <div><img src="imagens/bot-discord.png" alt="" onclick="redirectToLink(this)"></div>
+                        <a href="https://tav1hh.github.io/Site-BotDiscord/" class="acess" target="_blank">Acessar</a>
+                    </div>
+                    <div>
+                        <h2>Sax Club</h2>
+                        <div><img src="imagens/sax-club.png" alt="" onclick="redirectToLink(this)"></div>
+                        <a href="https://tav1hh.github.io/SaxClub/" class="acess" target="_blank">Acessar</a>
+                    </div>
+                    <div>
+                        <h2>Login/Cadastro</h2>
+                        <div><img src="imagens/login-registrar.png" alt="" onclick="redirectToLink(this)"></div>
+                        <a href="https://tav1hh.github.io/Login-Registrar/" class="acess" target="_blank">Acessar</a>
+                    </div>
+                    <div>
+                        <h2>Hora do Dia</h2>
+                        <div><img src="imagens/hora-dia.png" alt="" onclick="redirectToLink(this)"></div>
+                        <a href="https://tav1hh.github.io/Hora-Dia/" class="acess" target="_blank">Acessar</a>
+                    </div>
+                    <div>
+                        <h2>Verificador Idade</h2>
+                        <div><img src="imagens/indetificador-idade.png" alt="" onclick="redirectToLink(this)"></div>
+                        <a href="https://tav1hh.github.io/Verificador-Idade/" class="acess" target="_blank">Acessar</a>
+                    </div>
+                </div>
+        </section>
+
+        <article>
+            <h2>Linguagens e Ferramentas</h2>
+
+            <section>
+                <div>
+                    <h3>Front-End</h3>
+                    <h4>Linguagens</h4>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <h4>Ferramentas</h4>
+                    <ul>
+                        <li>Nenhuma</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Back-End</h3>
+                    <h4>Linguagens</h4>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                    <h4>Ferramentas</h4>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>SpringBoot</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Criado por Santiago</p>
+    </footer>
+    <script>
+        function redirectToLink(img) {
+        var link = img.parentNode.parentNode.querySelector('a').href;
+        window.location.href = link;
+    }
+
+    </script>
+</body>
+</html>
